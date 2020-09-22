@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>Harjoitus 1, JavaScript-testiä</title>
+
+<body>
+
+    <h1 id="sivunOtsikko">Tämä on sivun otsikko!</h1>
+    <p>Tässä on tavallista tekstiä.</p>
+
+    <button onclick="vaihdaTeksti()">Paina tästä!</button>
+     
+    <script>
+        function vaihdaTeksti() {
+            // vaihtoehto 1:
+            var otsikko = document.getElementById("sivunOtsikko");
+            // otsikko.innerText = "Uusi otsikko JavaScriptin kautta!";
+            otsikko.innerHTML = "Uusi <i>otsikko</i> JavaScriptin kautta!";
+
+            // vaihtoehto 2:
+            // document.getElementById("sivunOtsikko").innerText = "Uusi otsikko JavaScriptin kautta!";
+        }
+    </script>
+
+</body>
+
+</html>
