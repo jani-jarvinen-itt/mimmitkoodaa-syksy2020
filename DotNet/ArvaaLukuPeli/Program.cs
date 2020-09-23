@@ -8,10 +8,10 @@ namespace ArvaaLukuPeli
         {
             Console.WriteLine("Tervetuloa Arvaa luku -peliin!");
             
-
-
-
-
+            // arvotaan satunnainen luku, josta tulee pelin oikea vastaus
+            Random satunnainen = new Random();
+            int oikeaLuku = satunnainen.Next(1, 21);
+            Console.WriteLine(oikeaLuku);
 
 
 
