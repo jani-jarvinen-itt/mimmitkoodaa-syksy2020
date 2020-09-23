@@ -29,6 +29,8 @@ namespace ArvaaLukuPeli
                else {
                    Console.WriteLine("Oikein! Voitit pelin!");
                }
+
+               arvauskertoja++;
             }
 
             Console.WriteLine("Kiitos ajastasi, peli on päättynyt.");
