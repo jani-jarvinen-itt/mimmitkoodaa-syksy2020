@@ -11,7 +11,7 @@ namespace ArvaaLukuPeli
             // arvotaan satunnainen luku, josta tulee pelin oikea vastaus
             Random satunnainen = new Random();
             int oikeaLuku = satunnainen.Next(1, 21);
-            // Console.WriteLine(oikeaLuku);
+            Console.WriteLine(oikeaLuku);
 
             // annetaan pelaajalle kolme arvauskertaa
             int arvauskertoja = 0;
@@ -28,6 +28,7 @@ namespace ArvaaLukuPeli
                }
                else {
                    Console.WriteLine("Oikein! Voitit pelin!");
+                   break;
                }
 
                arvauskertoja++;
