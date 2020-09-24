@@ -126,3 +126,4 @@ DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsP
 DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/staticwebassets/AspNetDemo.StaticWebAssets.Manifest.cache
 DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/staticwebassets/AspNetDemo.StaticWebAssets.xml
+DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/Razor/Views/Home/OmaUusiSivu.cshtml.g.cs
