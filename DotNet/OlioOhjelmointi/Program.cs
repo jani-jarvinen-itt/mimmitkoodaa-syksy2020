@@ -2,10 +2,14 @@
 
 namespace OlioOhjelmointi
 {
-    class Henkilöauto
+    class Auto
     {
         public int Huippunopeus { get; set; }
         public string Väri { get; set; }
+    }
+
+    class Henkilöauto : Auto
+    {        
         public int OvienMäärä { get; set; }
         public bool MoottoriKäynnissä { get; set; }
 
@@ -13,6 +17,12 @@ namespace OlioOhjelmointi
         {
             MoottoriKäynnissä = true;
         }
+    }
+
+    class KuormaAuto : Auto
+    {
+        public int LavanKantavuusTonneina { get; set; }
+
     }
 
     class Program
