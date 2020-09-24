@@ -12,10 +12,11 @@ namespace ArvaaLukuPeli
             Random satunnainen = new Random();
             int oikeaLuku = satunnainen.Next(1, 21);
             // Console.WriteLine(oikeaLuku);
-
+            
             // annetaan pelaajalle kolme arvauskertaa
             int arvauskertoja = 0;
-            while (arvauskertoja < 3) {
+            const int ArvauskertojaEnintään = 3;
+            while (arvauskertoja < ArvauskertojaEnintään) {
 
                // kysytään pelaajalta arvaus, ja muunnetaan se numeroksi
                Console.WriteLine("Anna arvauksesi välillä 1-20:");
