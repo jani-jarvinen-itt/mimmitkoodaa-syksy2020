@@ -127,3 +127,6 @@ DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/staticwebassets/AspNetDemo.StaticWebAssets.Manifest.cache
 DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/staticwebassets/AspNetDemo.StaticWebAssets.xml
 DotNet/AspNetDemo/obj/Debug/netcoreapp3.1/Razor/Views/Home/OmaUusiSivu.cshtml.g.cs
+DotNet/AspNetDemo/.vs/AspNetDemo/config/applicationhost.config
+DotNet/AspNetDemo/.vs/AspNetDemo/v16/TestStore/0/000.testlog
+DotNet/AspNetDemo/.vs/AspNetDemo/v16/TestStore/0/testlog.manifest

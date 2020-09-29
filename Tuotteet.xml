@@ -1,0 +1,13 @@
+<Tuotteet>
+    <!-- tämä on kommentti -->
+    <Tuote>
+        <Id>1000</Id>
+        <Nimi>Punainen omena</Nimi>
+        <Hinta>2,50</Hinta>
+    </Tuote>
+    <Tuote>
+        <Id>1010</Id>
+        <Nimi>Mandariini</Nimi>
+        <Hinta>1,80</Hinta>
+    </Tuote>
+</Tuotteet>
